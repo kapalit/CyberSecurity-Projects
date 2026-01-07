@@ -2,7 +2,7 @@
 
 A collection of three professional cybersecurity tools built with Python, focusing on network security, web application security, and secure communications.
 
-## 🛠️ Projects
+## Projects
 
 ### 1. Intrusion Detection System (IDS)
 A network-based intrusion detection system that monitors and analyzes network traffic in real-time to detect suspicious activities and potential security threats.
@@ -43,7 +43,7 @@ An end-to-end encrypted messaging application using RSA and AES encryption to en
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Each project is self-contained with its own dependencies and documentation. Navigate to the individual project directories for detailed setup instructions.
 
@@ -64,7 +64,7 @@ cd [project-name]
 pip install -r requirements.txt
 ```
 
-## 📚 Documentation
+## Documentation
 
 Each project contains:
 - Detailed README with setup instructions
@@ -72,19 +72,19 @@ Each project contains:
 - Feature documentation
 - Requirements file
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These tools are for educational and authorized security testing purposes only. Always obtain proper authorization before testing any systems you do not own.
 
-## 📝 License
+## License
 
 MIT License - See individual project directories for details.
 
-## 👤 Author
+## Author
 
 **kapalit**
 - GitHub: [@kapalit](https://github.com/kapalit)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
