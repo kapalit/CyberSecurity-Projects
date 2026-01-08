@@ -1,0 +1,55 @@
+{
+  "rules": [
+    {
+      "name": "Port Scan Detection",
+      "type": "port_scan",
+      "description": "Detects potential port scanning activity",
+      "threshold": 10,
+      "time_window": 5,
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "SYN Flood Detection",
+      "type": "syn_flood",
+      "description": "Detects SYN flood attacks",
+      "threshold": 100,
+      "time_window": 5,
+      "severity": "HIGH"
+    },
+    {
+      "name": "Brute Force SSH",
+      "type": "brute_force",
+      "protocol": "TCP",
+      "port": 22,
+      "threshold": 10,
+      "time_window": 5,
+      "severity": "HIGH"
+    },
+    {
+      "name": "DNS Amplification",
+      "type": "dns_amplification",
+      "description": "Detects DNS amplification attacks",
+      "threshold": 50,
+      "time_window": 5,
+      "severity": "HIGH"
+    },
+    {
+      "name": "SQL Injection Attempt",
+      "type": "sql_injection",
+      "patterns": ["union select", "or 1=1", "drop table", "exec(", "script"],
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "XSS Attempt",
+      "type": "xss",
+      "patterns": ["<script>", "onclick=", "onerror=", "javascript:"],
+      "severity": "HIGH"
+    },
+    {
+      "name": "Command Injection",
+      "type": "command_injection",
+      "patterns": ["; cat ", "; ls ", "| nc ", "&& wget"],
+      "severity": "CRITICAL"
+    }
+  ]
+}

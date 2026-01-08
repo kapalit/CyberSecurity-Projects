@@ -1,0 +1,9 @@
+# Red Team Automation Scanner - Production Requirements
+
+# Core Dependencies
+python-nmap>=0.7.1        # Nmap Python interface for network scanning
+
+# Optional: For enhanced functionality
+# requests>=2.28.0         # HTTP library for SIEM integration
+# pyyaml>=6.0              # Configuration file parsing
+# colorama>=0.4.6          # Terminal color support (Windows compatibility)
